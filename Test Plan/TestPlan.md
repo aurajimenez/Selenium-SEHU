@@ -13,18 +13,18 @@ List all tasks identified by this Test Plan, i.e., testing, post-testing, proble
 ##General
 | Section Name | Roles | Description |
 |--|-----|------|
-| Register user | Admin | d |
-| Edit user | Admin | d |
-| Lists users | Member, Admin, Manager | d |
-| Profile user | Member, Admin, Manager | d |
-| Register Project | Manager | d |
-| Edit Project | Manager | d |
-| Lists Projects | Member, Manager | d |
-| Profile Project | Member, Manager | d |
-| Register HU | Member, Admin, Manager | d |
-| Edit HU | Manager | d |
-| Lists HUs | Member, Manager | d |
-| Profile HU | Member, Manager | d |
+| Register user | Admin | A Admin can register users. |
+| Edit user | Admin | A Admin can edit users. |
+| Lists users | Member, Admin, Manager | Member, Admin, Manager: can see all the users in a list |
+| Profile user | Member, Admin, Manager | Member, Admin, Manager: can see the profile user |
+| Register Project | Manager | Manager: can register projects |
+| Edit Project | Manager | Manager: can edit his/her projects |
+| Lists Projects | Member, Manager | Member, Manager: can see all his/her projects in a list |
+| Profile Project | Member, Manager | Member, Manager: can see the profile project |
+| Register Ustory | Member, Admin, Manager | Manager: can register Ustory |
+| Edit Ustory | Manager | Manager: can register Ustory |
+| Lists Ustories | Member, Manager | Member, Manager: can see all his/her Ustories sort for project |
+| Profile Ustory | Member, Manager | Member, Manager: can see the profile Ustory |
 
 ##Roles and Responsibilities
 | Member | Tasks |

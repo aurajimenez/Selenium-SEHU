@@ -7,7 +7,7 @@ import time
 class UserModule(unittest.TestCase):
 
 	def setUp(self):
-		self.driver = webdriver.Opera(executable_path = r"C:\Users\Dell\Documents\Proyectos - propio\Selenium-SEHU\code\SeleniumSEHU\operadriver.exe")
+		self.driver = webdriver.Opera(executable_path = r"operadriver.exe")
 		driver = self.driver
 		driver.maximize_window()
 		driver.get('http://localhost:8000/usuarios/login')
