@@ -57,7 +57,7 @@ class UserModule(unittest.TestCase):
 		register_button.send_keys(Keys.ENTER)
 
 	def tearDown(self):
-		pass
+		self.driver.close()
 
 if __name__ == '__main__':
 	unittest.main()
